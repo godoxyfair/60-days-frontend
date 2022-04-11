@@ -1,0 +1,28 @@
+.main-container {
+    width: 70%;
+}
+
+.text-one {
+    text-align: justify;
+    margin: 0;
+    width: 70%;
+}
+
+.text-two {
+    margin: 5px 0;
+    text-align: justify;
+    width: 70%;
+}
+
+/* Only change code below this line */
+
+.logo-one {
+    float: left;
+    width: 20%;
+}
+
+.logo-two {
+    clear: right; /*join try logo position in site clear/float position*/
+    float: right;
+    width: 30%;
+}
