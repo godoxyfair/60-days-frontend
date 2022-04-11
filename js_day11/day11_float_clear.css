@@ -1,0 +1,49 @@
+.container {
+    color: aliceblue;
+    width: 40%;
+}
+
+.header, .footer {
+    background-color: rgb(96, 96, 212);
+    border: 1px solid black;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.mid-element {
+    background-color: rgb(185, 67, 67);
+    border: 1px solid black;
+    font-size: 16px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.main-content {
+    margin-left: 7%;
+    width: 35%;
+}
+.right-bar, .left-bar {
+    width: 25%;
+}
+
+/* Only change code below this line (new code)*/
+
+.right-bar {
+    float: right;
+}
+
+.footer {
+    clear: both;
+}
+
+.main-content {
+    float: left ;
+}
+
+.left-bar {
+    float:left;
+}
