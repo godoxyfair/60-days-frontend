@@ -1,0 +1,16 @@
+/* Only change code below this line */
+.quote {
+    border: 3px dashed pink;
+}
+/* Only change code above this line */
+
+
+div {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+p {
+    padding: 5px;
+}
