@@ -1,0 +1,8 @@
+.block1 {
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    /* Write your code here */
+    background-image: linear-gradient(#47FFFF, #FF85F9);
+
+}
