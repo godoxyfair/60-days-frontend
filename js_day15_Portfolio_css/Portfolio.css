@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+header {
+    background-color: black;
+}
+.backgr {
+    display: flex;
+    position: fixed;
+    height: 60px;
+    min-width: auto;
+    background-color: black;
+
+}
+.navigation {
+    display: flex;
+    position: fixed;
+    flex-direction: row-reverse;
+    margin-left: 63%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.navelem {
+    margin: 20px;
+}
+.grandheader {
+    display: flex;
+    height: 700px;
+    background-image: linear-gradient(#007777, #004444);
+}
+.headname {
+    display: flex;
+    padding: 400px 100px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+/*h1 {
+    display: flex;
+    font-size: 45pt;
+    padding: 20px 20px 20px;
+    color: white;
+    background-image: linear-gradient(#007777, #004444)
+}*/
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(#007777, #003333);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.headaboutme {
+    padding: 20px 550px;
+    font-size: 20px;
+    color: white;.
+}
+.aboutmeImage {
+    padding: 30px 400px;
+}
+.myname  {
+    padding: 20px 400px;
+}
+.learn {
+    padding: 20px 400px;
+}
+.hobby {
+    padding: 20px 400px;
+}
+.skills {
+    padding: 20px 400px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(#007777, #003333);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.headportf{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flashcard {
+    margin-bottom: 20px;
+}
+.piano {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+}
+.contacts {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    background-image: radial-gradient(#007777, #003333);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*.git  {
+    display: flex;
+    padding: 20px 600px 20px;
+}
+.facebook {
+    display: flex;
+    flex-direction: inherit;
+    padding: 20px 600px;
+}*/
+.gitFace {
+    display: flex;
+    padding: 20px 500px 20px;
+}
+
+.git {
+   margin: 20px;
+}
+.facebook {
+    margin: 20px;
+}
