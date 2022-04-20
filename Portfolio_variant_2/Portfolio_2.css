@@ -135,4 +135,8 @@ footer {
     width: auto;
     height: 250px;
     background-color: black;
+    font-size: 18px;
+    color: #e0e2e4;
+    text-align: center;
+    top: 100px;
 }
