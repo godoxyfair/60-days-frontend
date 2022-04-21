@@ -28,3 +28,21 @@ function showName(name) {
 
 const studentGreeting = setInterval(showName, 3000, "Alex");
 clearInterval(studentGreeting);
+
+//anonimus function
+const setSettingsVar = function setSettings() {
+    return "Settings have saved.";
+};
+
+const cats = ["Persian Cats", "Sphynx Cats", "Scottish Fold Cats"];
+(function() {
+    setTimeout(function () {
+        getCatsMeow(cats);
+    }, 3000);
+}(cats));
+
+//arrow functions
+let func1 = (a, b) => a / b + a * b;
+let func2 = (c, d) => c + 5 * d / c;
+// change the code above this line
+let result = 7 - func1(50, 4) / func2(40, 30);
