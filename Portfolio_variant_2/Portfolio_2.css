@@ -50,7 +50,13 @@ h1 {
     margin-top: 450px;
     margin-left: 50px;
     margin-bottom: 70px;
+
 }
+
+/*h1 {
+    animation-name: change-font-size;
+    animation-duration: 5s;
+}*/
 
 #about {
 
@@ -140,3 +146,14 @@ footer {
     text-align: center;
     top: 100px;
 }
+/*@keyframes change-font-size {
+    from {
+        font-size: 100%;
+    }
+    50% {
+        font-size: 150%;
+    }
+    to {
+        font-size: 100%;
+    }
+}*/

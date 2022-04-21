@@ -1,0 +1,17 @@
+p {
+    width: 100px;
+    background-color: cyan;
+    animation: font-size-change 5s;
+}
+/* Write your code below */
+@keyframes font-size-change {
+    0% {
+        font-size: 100px;
+    }
+    25% {
+        font-size: 105px;
+    }
+    100% {
+        font-size: 50px;
+    }
+}

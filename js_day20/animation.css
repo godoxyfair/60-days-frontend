@@ -1,0 +1,22 @@
+/* Change */
+img {
+    position: relative;
+    width: 150px;
+    animation: throwing 3s infinite;
+}
+/* Change */
+
+@keyframes throwing {
+    0% {
+        left: 500px;
+    }
+    100% {
+        left: 110px;
+        top: 40px;
+    }
+}
+
+body {
+    background: url("https://stepik.org/media/attachments/lesson/372543/Target.png");
+    background-repeat: no-repeat;
+}
