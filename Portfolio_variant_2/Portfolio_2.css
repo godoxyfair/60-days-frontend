@@ -71,6 +71,7 @@ h1 {
     margin-right: 50px;
     margin-left: 100px;
     float: left;
+    opacity: 0.2; /*transparient for 0 to 1*/
 
 }
 
