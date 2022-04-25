@@ -24,5 +24,4 @@ function menuClick() {
 function menuClose() {
     c.style.display = 'none';
     d.style.display = 'none';
-    k.style.display = 'flex';
 }
