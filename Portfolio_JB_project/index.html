@@ -3,10 +3,22 @@
 <head>
     <meta charset="utf-8">
     <title>My portfolio!</title>
-    <link rel="stylesheet" href="Portfolio_2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
+    <button id="mobNavig" onclick="menuClick()" type="button">
+        <div><img src="img.png" alt="mobNavig" width="50px" height="50px"></div>
+    </button>
+    <button id="closeNavig" onclick="menuClose()" type="button">
+        <div><img src="img_1.png" alt="mobNavig" width="50px" height="50px"></div>
+    </button>
+    <div class="hamburger">
+        <div class="navelem"><a href="#home">Home</a></div>
+        <div class="navelem"><a href="#about">About Me</a></div>
+        <div class="navelem"><a href="#portfolio">Portfolio</a></div>
+        <div class="navelem"><a href="#contacts">Contacts</a></div>
+    </div>
 <div class="navigation">
     <nav>
         <ol>
@@ -37,8 +49,28 @@
 <div class="portfolio">
     <div class="headportfolio"><section id ="portfolio"><h2>Portfolio</h2></section></div>
     <div class="flashing1"><img id="imgproject1" src="project1.png" alt ="map" height="200" width="400"/></div>
+    <div><button class= "open-window" onclick="mypPopClick()" type="button">About Flashcards</button></div>
+    <div class="window">
+        <div class="popup">
+            <button class="close" title="Закрыть окно" onclick="mypPopClose()"></button>
+            <p class="zag">Модальное окно</p>
+            <p>Мяумяумяумяу</p>
+            <p>руруруруурур</p>
+            <p>(((((((</p>
+        </div>
+    </div>
     <div class="flashing3"><p>Flashcards</p></div>
     <div class="flashing2"><img id="imgproject2" src="project2.png" height="200" alt ="piano" width="400"/></div>
+    <div><button onclick="mypPopClick()" type="button">About VPiano</button></div>
+    <div class="window">
+        <div class="popup">
+            <button class="close" title="Закрыть окно" onclick="mypPopClose()"></button>
+            <p class="zag">Модальное окно</p>
+            <p>Мяумяумяумяу</p>
+            <p>руруруруурур</p>
+            <p>(((((((</p>
+        </div>
+    </div>
     <div class="flashing4"><p>Virtual Piano</p></div>
 </div>
 
@@ -53,7 +85,7 @@
     <a href="https://github.com/godoxyfair"><img src="github.svg" alt="GitHub" height="87" width="87"></a>
     <a href="https://www.facebook.com/profile.php?id=100045231307108"><img src="facebook.svg" alt="Facebook" height="87" width="87"></a>
 </div>
-
+<script src="script.js"></script>
 </body>
 
 <footer>
