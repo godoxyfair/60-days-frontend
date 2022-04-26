@@ -1,0 +1,48 @@
+nav {
+    height: 100px;
+    background: black;
+
+
+}
+
+nav a {
+    color: white;
+    line-height: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header {
+    background: gray;
+    height: 500px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 300px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#about, #contacts {
+    padding: 10px;
+    background: #a9a9a9;
+}
+
+footer {
+    background: black;
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
