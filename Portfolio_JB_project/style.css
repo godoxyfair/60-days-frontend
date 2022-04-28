@@ -211,7 +211,7 @@ h1 {
 
 @media screen and (max-width: 900px) {
     #mobNavig {
-        display: flex;
+        display: block;
         justify-content: flex-end;
     }
 }
@@ -220,6 +220,12 @@ h1 {
 }
 @media screen and (max-width: 901px) {
     .hamburger {display: none;}
+}
+@media screen and (min-width: 901px) {
+    #mobNavig {
+        display: none;
+        justify-content: flex-end;
+    }
 }
 .hamburger {
     display: none;
