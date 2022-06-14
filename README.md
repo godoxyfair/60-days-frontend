@@ -1,2 +1,2 @@
 # 60-days-frontend
-#learn html and css month
+#Project about learning html & css and js everyday for a month.
